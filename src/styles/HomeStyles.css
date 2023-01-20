@@ -5,37 +5,32 @@
 }
 .home{
     position: absolute;
-    left: 100px;
+    left: 0;
     top: 0;
-    width: auto;
-    max-width: 92%;
-    min-height: 100vh;
-    height: auto;
-    display: grid;
-    place-items: center;
+    padding: 15px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30vh;
 }
 .skills{
     color: #efb810;
-    font-size: 3em;
+    font-size: 4vw;
 }
 .myName{
-    display: block;
     position: relative;
     color: #fff;
+    text-align: center;
     letter-spacing: 2px;
-    font-size: 5vw;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 33ch;
-    animation: typing 5s steps(33), blink .5s infinite step-end alternate;
-    overflow: hidden;
+    font-size: 5.5vw;
+    width: 100%;
+    transition: 0.5s;
+}
+.myName:hover{
     filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 50px rgb(0, 0, 0));
-}
-@keyframes typing{
-    from { width: 0;}
-}
-@keyframes blink{
-    50% {border-color: transparent;}
+    transition: 0.5s;
 }
 .Download_Cv_Btn{
     position: relative;
@@ -46,7 +41,7 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 2vw;
     font-weight: 500;
     overflow: hidden;
     transition: 0.2s;

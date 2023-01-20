@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/PortfolioStyles.css'
+import { FaEye, FaGithub } from "react-icons/fa";
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,10 @@ const Portfolio = () => {
             <div className='datails'>
               <h3>rick and morty</h3>
               <p>Pokedex proyect created with React JS, using axios to make the petition to the API, using CSS and JS to make the animations and styles.</p>  
+              <section className='links_icon_proyects'>
+                <a href="" className='link'><FaEye className='i'/></a>
+                <a href="" className='link'><FaGithub className='i'/></a>
+              </section>
             </div>
           </div>
           <div className="proyect">
@@ -21,6 +26,10 @@ const Portfolio = () => {
             <div className='datails'>
               <h3>pokedex</h3>
               <p>Pokedex proyect created with React JS, using axios to make the petition to the API, using CSS and JS to make the animations and styles.</p>  
+              <section className='links_icon_proyects'>
+                <a href="" className='link'><FaEye className='i'/></a>
+                <a href="" className='link'><FaGithub className='i'/></a>
+              </section>
             </div>
           </div>
           <div className="proyect">
@@ -28,6 +37,10 @@ const Portfolio = () => {
             <div className='datails'>
               <h3>Weather App</h3>
               <p>Weather App proyect created with React JS, using axios to make the petition to the API, using CSS and JS to make the animations and styles.</p>  
+              <section className='links_icon_proyects'>
+                <a href="" className='link'><FaEye className='i'/></a>
+                <a href="" className='link'><FaGithub className='i'/></a>
+              </section>
             </div>
           </div>
           <div className="proyect">
@@ -35,6 +48,10 @@ const Portfolio = () => {
             <div className='datails'>
               <h3>QuoteBox</h3>
               <p>Random quote generetor proyect created with React JS, using axios to make the petition to the API, using CSS and JavaScript to make the styles.</p>  
+              <section className='links_icon_proyects'>
+                <a href="" className='link'><FaEye className='i'/></a>
+                <a href="" className='link'><FaGithub className='i'/></a>
+              </section>
             </div>
           </div>
         </div>  

@@ -3,7 +3,7 @@
     left:0;
     top: 0;
     padding: 10px;
-    max-width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@
 }
 .text_about p{
     position: relative;
-    max-width: 85%;
+    max-width: 80%;
     top: 4rem;
     left: 3rem;
     color: #fff;
@@ -93,33 +93,20 @@
 /*skills cards*/
 
 .skills_container{
-    width: 100%;
+    width: 92%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 30px;
 }
 .title_skills{
-    display: block;
     position: relative;
-    font-size: 2em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    top: 2rem;
-    color: #fff;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 9ch;
-    animation: typing 2s steps(9), blink .5s infinite step-end alternate;
-    overflow: hidden;
-}
-@keyframes typing{
-    from { width: 0;}
-}
-@keyframes blink{
-    50% {border-color: transparent;}
+    top: 0;
+   font-size: 3em;
+   color: #fff;
+   text-transform: uppercase;
 }
 
 :root{
@@ -144,9 +131,10 @@
 .skills_icons ul{
     width: 100%;
     position: relative;
+    margin-left: 10px;
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
     gap: 50px;
 }
 .skills_icons ul li{
@@ -161,7 +149,7 @@
     transition: 0.5s;
 }
 .skills_icons ul li:hover{
-    z-index: 10000;
+    z-index: 1;
     transform: scale(0.75);
     transition: 0.5s;
 }
@@ -177,7 +165,7 @@
 }
 .skills_icons ul li span{
     position: relative;
-    z-index: 10;
+    z-index: 1;
     font-size: 2em;
     transition: 0.5s;
 }
@@ -364,4 +352,54 @@
     0 0 0 20px #121212,
     0 0 0 22px var(--css);
     transition: 0.5s;
+}
+
+
+/*---Mobile devices---*/
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .about{
+        width: 90vw;
+    }
+    .info_about{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+    }
+    .text_about{
+        width: 92%;
+        padding: 0 0 0 30px;
+    }
+    .text_about p{
+        max-width: 75%;
+        font-size: 19px;
+    }
+    .skills_container{
+        margin-top: 70px;
+    }
+}
+
+/*---Tablet---*/
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .skills_container{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
+/*---Laptop---*/
+
+@media screen and (min-width:1024px) and (max-width:1435px){
+    .text_about p{
+        font-size: 20px;
+    }
+}
+
+/*---Large Desktop---*/
+
+@media screen and (min-width:1435px){
+    .info_about{
+        margin-left: 20px;
+    }
 }

@@ -41,7 +41,7 @@ const Contact = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:saac17062003@gmail.com?Subject=Job%20Opportunity">
+                <a href="mailto:saac17062003@gmail.com?subject=Job%20opportunity">
                   <i class='bx bxl-gmail'></i>
                 </a>
               </li>

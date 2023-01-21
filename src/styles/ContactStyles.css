@@ -3,7 +3,7 @@
     left:0;
     top: 0;
     padding: 10px;
-    width: 98%;
+    width: 95vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,11 +27,10 @@
     width: 100vw;
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(48vw, 1fr));
 }
 .logo_container{
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +41,7 @@
     border-radius: 3%;
 }
 .accounts_container{
-    width: 100%;
+    width: 95%;
     height: 100%;
     margin-top: 10px;
     display: flex;
@@ -54,8 +53,8 @@
     position: relative;
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-    gap: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(8vw, 1fr));
+    gap: 25px;
     list-style-type: none;
 }
 .accounts_ul li a{
@@ -65,7 +64,7 @@
     height: 8vw;
     border-radius: 10%;
     font-size: 35px;
-    margin-bottom: 20%;
+    margin-bottom: 25px;
     text-decoration: none;
     justify-content: center;
     align-items: center;
@@ -130,4 +129,80 @@ box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
 .accounts_ul li:nth-child(7) a::before{
     background: #269fde;
+}
+
+/*---Mobile devices---*/
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .contact{
+        width: 94vw;
+    }
+    .logo_container img{
+        width: 60vw;
+        height: 60vw;
+    }
+    .contact_info_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .accounts_container{
+        margin: 40px 0 0 10px;
+    }
+    .accounts_ul{
+        grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+    }
+    .accounts_ul li a{
+        width: 15vw;
+        height: 15vw;
+    }
+    .accounts_ul li a::after{
+        width: 15vw;
+        height: 15vw;
+    }
+    .accounts_ul li a::before{
+        width: 15vw;
+        height: 15vw;
+    }
+}
+
+/*---Tablet---*/
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .title_contact{
+        font-size: 4.5em;
+    }
+    .logo_container img{
+        width: 60vw;
+        height: 60vw;
+    }
+    .contact_info_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .accounts_container{
+        margin: 40px 0 0 25px;
+    }
+    .accounts_ul{
+        grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+    }
+    .accounts_ul li a{
+        width: 15vw;
+        height: 15vw;
+    }
+    .accounts_ul li a::after{
+        width: 15vw;
+        height: 15vw;
+    }
+    .accounts_ul li a::before{
+        width: 15vw;
+        height: 15vw;
+    }
+}
+
+/*---Large Desktop---*/
+
+@media screen and (min-width:1434px){
+    .title_contact{
+        font-size: 5em;
+    }
 }

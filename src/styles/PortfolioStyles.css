@@ -6,7 +6,7 @@
     left: 0;
     top: 0;
     padding: 10px;
-    max-width: 100%;
+    width: 100vw;
 }
 .container_title_proyects{
     width: 100%;
@@ -123,4 +123,66 @@
 }
 .links_icon_proyects .link:hover .i{
     transform: rotate(-45deg);
+}
+
+/*---Mobile devices---*/
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .container_proyects{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        padding: 10px;
+        max-width: 95vw;
+        scroll-snap-type: y mandatory;
+    }
+    .container_proyects .proyect{
+        max-height: 80vh;
+        max-width: 90vw;
+    }
+    .datails h3{
+        font-size: 2em;
+    }
+    .datails p{
+        margin: 1em 1em 0.2em 1em;
+        font-size: 0.8em;
+    }
+    .links_icon_proyects .link{
+        margin: 0 10px;
+        width: 2em;
+        height: 2em;
+    }
+    .links_icon_proyects .link .i{
+        font-size: 1em;
+        transition: all 0.4s;
+    }
+}
+
+/*---Tablet---*/
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .title_proyects{
+       font-size: 4em;
+       color: #fff;
+       text-transform: uppercase;
+    }
+    .container_proyects{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        padding: 10px;
+        max-width: 95vw;
+        scroll-snap-type: y mandatory;
+    }
+    .container_proyects .proyect{
+        max-height: 80vh;
+        max-width: 90vw;
+    }
+    .datails h3{
+        font-size: 3em;
+    }
+    .datails p{
+        margin: 1em;
+        font-size: 1.5em;
+    }
 }

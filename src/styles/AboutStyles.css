@@ -399,7 +399,52 @@
 /*---Large Desktop---*/
 
 @media screen and (min-width:1435px){
-    .info_about{
-        margin-left: 20px;
+    .about{
+        width: 98vw;
+    }
+    .text_about p{
+        font-size: 2.3em;
+        line-height: 4vh;
+    }
+    .skills_icons ul{
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        gap: 50px;
+    }
+    .skills_icons ul li{
+        width: 130px;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills_icons ul li span{
+        font-size: 3.5em;
+    }
+    .skills_icons ul .li_js:hover span{
+        font-size: 3.5em;
+    }
+    .skills_icons ul .li_html:hover span{
+        font-size: 3.5em;
+    }
+    .skills_icons ul .li_react:hover span{
+        font-size: 3.5em;
+    }
+    .skills_icons ul .li_vite:hover span{
+        font-size: 3.5em;
+    }
+    .skills_icons ul .li_redux:hover span{
+        font-size: 3.5em;
+    }
+    .skills_icons ul .li_node:hover span{
+        font-size: 3.5em;
+    }
+    .skills_icons ul .li_bootstrap:hover span{
+        font-size: 3.5em;
+    }
+    .skills_icons ul .li_git:hover span{
+        font-size: 3.5em;
+    }
+    .skills_icons ul .li_css:hover span{
+        font-size: 3.5em;
     }
 }

@@ -109,8 +109,8 @@
 }
 .accounts_ul li:nth-child(1) a::before{
     background: #d6249f;
-background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
 .accounts_ul li:nth-child(2) a::before{
     background: #1c98e5;
@@ -125,7 +125,8 @@ box-shadow: 0px 3px 10px rgba(0,0,0,.25);
     background: #23272d;
 }
 .accounts_ul li:nth-child(6) a::before{
-    background: #ef2c1e;
+    background: rgb(250,195,17);
+background: linear-gradient(90deg, rgba(250,195,17,1) 0%, rgba(235,80,65,1) 60%);
 }
 .accounts_ul li:nth-child(7) a::before{
     background: #269fde;
@@ -204,5 +205,8 @@ box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 @media screen and (min-width:1434px){
     .title_contact{
         font-size: 5em;
+    }
+    .accounts_ul li a{
+        font-size: 60px;
     }
 }

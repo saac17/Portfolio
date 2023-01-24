@@ -390,7 +390,10 @@
 
 /*---Laptop---*/
 
-@media screen and (min-width:1024px) and (max-width:1435px){
+@media screen and (min-width:1024px) and (max-width:1434px){
+    .about{
+        width: 98vw;
+    }
     .text_about p{
         font-size: 20px;
     }

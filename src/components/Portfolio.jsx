@@ -5,6 +5,7 @@ import pokedex from '../assets/pokedexImg.png'
 import rickandmorty from '../assets/rickAndMortyImg.png'
 import weatherapp from '../assets/weatherApp.png'
 import quotebox from '../assets/quoteBox.png'
+import silocloms from '../assets/silocloms.png'
 
 const Portfolio = () => {
   return (
@@ -54,6 +55,17 @@ const Portfolio = () => {
               <p>Random quote generetor proyect created with React JS, using CSS and JavaScript to make the styles.</p>  
               <section className='links_icon_proyects'>
                 <a href="https://quote-box-app.netlify.app" className='link'><FaEye className='i'/></a>
+                <a href="https://github.com/saac17/entregable1-react" className='link'><FaGithub className='i'/></a>
+              </section>
+            </div>
+          </div>
+          <div className="proyect">
+            <img src={silocloms} alt="Silocloms" />
+            <div className='datails'>
+              <h3>Silocloms</h3>
+              <p>Beautiful website created for Silocloms, a leading grain import and export company in Argentina, Created with REACT JS, Vainilla Css, Tailwind and JavaScript.</p>  
+              <section className='links_icon_proyects'>
+                <a href="https://siloclomsprueba.netlify.app/#/" className='link'><FaEye className='i'/></a>
                 <a href="https://github.com/saac17/entregable1-react" className='link'><FaGithub className='i'/></a>
               </section>
             </div>

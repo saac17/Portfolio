@@ -1,7 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 import '../styles/HomeStyles.css'
-import Curriculum from '../assets/CV_Santiago_A_Alvarez_C.pdf'
+import Curriculum from '../assets/CV_SANTIAGO_A_ALVAREZ_C.pdf'
 
 
 const Home = () => {
@@ -26,7 +26,7 @@ const Home = () => {
           </span>
         </h3>
         <h1 className='myName'>Santiago Alejandro Alvarez Capera</h1>
-        <a href={Curriculum} download="CV_Santiago_A_Alvarez_C.pdf" className="Download_Cv_Btn">
+        <a href={Curriculum} download="CV_Santiago_A_Alvarez_C" className="Download_Cv_Btn">
           <span></span>
           <span></span>
           <span></span>

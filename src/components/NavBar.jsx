@@ -13,7 +13,7 @@ const NavBar = () => {
     <div className='body_navigation'>
     <div className='navigation' >
         <div className='menuToggle' onClick={handleClick}>
-            <i class='bx bx-menu-alt-right'></i>
+            <i className='bx bx-menu-alt-right'></i>
         </div>
         <ul className='navItems'>
             <NavLink to='/' className='a'>

@@ -9,7 +9,7 @@ const Portfolio = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 500);
   }, []);
 
   return (
@@ -25,7 +25,7 @@ const Portfolio = () => {
             :
             <>
             <div className="proyect">
-              <img src='http://drive.google.com/uc?export=view&id=1bcAZPLd5qN506gx4mXNKNfA-rMVUJjIy' alt="rick and morty" />
+              <img src='http://drive.google.com/uc?export=view&id=1uTQj4fvsg_5czESBz-4E5fXuYHn426Iv' alt="rick and morty" />
               <div className='datails'>
                 <h3>rick and morty</h3>
                 <p>Rick And Morty character wiki proyect created with React JS, using axios to make the petition to the API, using CSS and JavaScript to make the animations and styles.</p>  
@@ -36,7 +36,7 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="proyect">
-              <img src='http://drive.google.com/uc?export=view&id=19nliJozAF8JO48Yg_SiN4XghL0QwjArf' alt="pokedex" />
+              <img src='http://drive.google.com/uc?export=view&id=1VppcuVPVXMZLiKKixCou_N_g0dRjGB0x' alt="pokedex" />
               <div className='datails'>
                 <h3>pokedex</h3>
                 <p>Pokedex proyect created with React JS, using axios to make the petition to the API, using CSS and JS to make the animations and styles.</p>  
@@ -47,7 +47,7 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="proyect">
-              <img src='http://drive.google.com/uc?export=view&id=1rmT2s6y3kW9npuqCvB9_0pwzxYhCWLbg' alt="Weather App" />
+              <img src='http://drive.google.com/uc?export=view&id=1-nac5hFNgHU5VYFBnrhkEyOCutzCnRsv' alt="Weather App" />
               <div className='datails'>
                 <h3>Weather App</h3>
                 <p>Weather App proyect created with React JS, using axios to make the petition to the API, using CSS and JS to make the animations and styles.</p>  
@@ -58,7 +58,7 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="proyect">
-              <img src='http://drive.google.com/uc?export=view&id=1LMfjnPnmj60PmGqsSCzYravy-vAJQ0iw' alt="QuoteBox" />
+              <img src='http://drive.google.com/uc?export=view&id=1hHwWmmpp3zCusYg3CKFx27cg3Kxh-sx9' alt="QuoteBox" />
               <div className='datails'>
                 <h3>QuoteBox</h3>
                 <p>Random quote generetor proyect created with React JS, using CSS and JavaScript to make the styles.</p>  
@@ -69,7 +69,7 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="proyect">
-              <img src='http://drive.google.com/uc?export=view&id=1U6KA0_vDpfwQVwwR-U-kV23K0zUCLQJL' alt="Silocloms" />
+              <img src='http://drive.google.com/uc?export=view&id=1B62mCFsdw676knabq2H9c3hswI_2kbga' alt="Silocloms" />
               <div className='datails'>
                 <h3>Silocloms</h3>
                 <p>Beautiful website created for Silocloms, a leading grain import and export company in Argentina, Created with REACT JS, Vainilla Css, Tailwind and JavaScript.</p>  

@@ -1,7 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 import '../styles/HomeStyles.css'
-import Curriculum from '../assets/CV_SANTIAGO_A_ALVAREZ_C.pdf'
+import Curriculum from '../assets/SANTIAGO_A_ALVAREZ_C_CV.pdf'
 
 
 const Home = () => {
